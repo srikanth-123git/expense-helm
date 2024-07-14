@@ -1,7 +1,7 @@
 initContainers:
   enabled: true
 component: backend
-appVersion: 3.0.0
+appVersion: 3.0.1
 service:
   type: ClusterIP
   port: 80
