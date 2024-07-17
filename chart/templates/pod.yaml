@@ -30,7 +30,7 @@ spec:
         - mountPath: /data
           name: vault
     - name: schema
-      image: 471112738465.dkr.ecr.us-east-1.amazonaws.com/schema-init-container:v1
+      image: 471112738465.dkr.ecr.us-east-1.amazonaws.com/schema-init-container:v2
       volumeMounts:
         - mountPath: /data
           name: vault
