@@ -12,7 +12,6 @@ spec:
     matchLabels:
       appName: {{ .Values.component }}
       projectName: {{ .Chart.Name }}
-      appVersion: "{{ .Values.appVersion }}"
   template:
     metadata:
       labels:
