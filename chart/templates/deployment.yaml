@@ -39,7 +39,7 @@ spec:
             - name: SECRET_NAME
               value: {{ .Chart.Name }}-dev/{{ .Values.component }}
             - name: VAULT_SKIP_VERIFY
-            value: "TRUE"
+              value: "TRUE"
           volumeMounts:
             - mountPath: /data
               name: vault
