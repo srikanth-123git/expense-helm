@@ -57,4 +57,3 @@ spec:
       - mountPath: /data
         name: vault
     {{ end }}
-
