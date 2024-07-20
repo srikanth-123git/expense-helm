@@ -22859,6 +22859,8 @@ kind: Ingress
 metadata:
   name: argocd
   namespace: argocd
+  annotations:
+    nginx.ingress.kubernetes.io/rewrite-targets: /
 spec:
   ingressClassName: nginx
   rules:
